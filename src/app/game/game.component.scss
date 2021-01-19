@@ -1,0 +1,33 @@
+td {
+  width: 80px;
+  height: 80px;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  td:nth-child(odd) {
+    background: #795538;
+  }
+  td:nth-child(even) {
+    background: #eed7b5;
+  }
+}
+
+tr:nth-child(even) {
+  td:nth-child(even) {
+    background: #795538;
+  }
+  td:nth-child(odd) {
+    background: #eed7b5;
+  }
+}
+
+.checkboard{
+  border: black 3px solid;
+  border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 60px;
+}
+
+div{
+  margin-top: 100px;
+}
